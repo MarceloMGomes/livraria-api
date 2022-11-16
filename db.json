@@ -1,9 +1,116 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
+    "livros": [
+      {
+        "id": 1,
+        "nome": "O CASO ALASKA SANDERS - 1ªED.(2022)",
+        "autor": "Joel Dicker",
+        "preco": 89.90,
+        "categoria_id": 1
+      },
+      {
+        "id": 2,
+        "nome": "ANTES QUE O CAFE ESFRIE - 2ªED.(2022)",
+        "autor": "Toshikazu Kawaguchi",
+        "preco": 39.90,
+        "categoria_id": 1
+      },
+      {
+        "id": 3,
+        "nome": "SATANTANGO - 1ªED.(2022)",
+        "autor": "Laszlo Krasznahorkai",
+        "preco": 89.90,
+        "categoria_id": 1
+      },
+      {
+        "id": 4,
+        "nome": "PEQUENAS VINGANÇAS - 1ªED.(2022)",
+        "autor": "Edney Silvestre",
+        "preco": 49.90,
+        "categoria_id": 1
+      },
+      {
+        "id": 5,
+        "nome": "POETICA DA DANÇA CONTEMPORANEA - 1ªED.(2012)",
+        "autor": "Laurence Louppe",
+        "preco": 174.90,
+        "categoria_id": 2
+      },
+      {
+        "id": 6,
+        "nome": "A EDUCAÇAO PELA DANÇA - 6ªED.(2011)",
+        "autor": "Paulina Ossona",
+        "preco": 69.10,
+        "categoria_id": 2
+      },
+      {
+        "id": 7,
+        "nome": "ESTETICA DA DANÇA CLASSICA - 1ªED.(2014)",
+        "autor": "Frederico Lourenço",
+        "preco": 162.90,
+        "categoria_id": 2
+      },
+      {
+        "id": 8,
+        "nome": "EXPERIMENTAÇOES EM DANÇA IMANENTE - 1ªED.(2019)",
+        "autor": "Luiza Monteiro e Souza",
+        "preco": 44.90,
+        "categoria_id": 2
+      },
+      {
+        "id": 9,
+        "nome": "BAILARINO, PESQUISADOR E INTERPRETE - 1ªED.(2018)",
+        "autor": "Graziela Rodrigues",
+        "preco": 100.00,
+        "categoria_id": 2
+      },
+      {
+        "id": 10,
+        "nome": "O PODER DA MEDITAÇAO - 1ªED.(2019)",
+        "autor": "Astral Cultural",
+        "preco": 14.90,
+        "categoria_id": 3
+      },
+      {
+        "id": 11,
+        "nome": "O PODER DO JEJUM INTERMITENTE - 1ªED.(2022)",
+        "autor": "Alexandra Vasconcelos",
+        "preco": 69.90,
+        "categoria_id": 3
+      },
+      {
+        "id": 12,
+        "nome": "GUIA PRATICO DE MEDITAÇAO - 2ªED.(2021)",
+        "autor": "Khalis Chacel",
+        "preco": 38.00,
+        "categoria_id": 3
+      },
+      {
+        "id": 13,
+        "nome": "LAÇOS COM A SAUDE - 1ªED.(2022)",
+        "autor": "Isabela Ribeiro Simoes de Castro, Monica de Leao Ramoa, Denise Castro de Souza Cortes",
+        "preco": 50.00,
+        "categoria_id": 3
+      },
+      {
+        "id": 14,
+        "nome": "A DIETA DA MENTE: DESCUBRA OS ASSASSINOS SILENCIOSOS DO SEU CEREBRO - 2ªED.(2020)",
+        "autor": "David Perlmutter, Kristin Loberg",
+        "preco": 59.90,
+        "categoria_id": 3
+      }
+    ],
+    "categorias": [
+      {
+        "id": 1,
+        "nome": "Literatura e Ficção"
+      },
+      {
+        "id": 2,
+        "nome": "Dança"
+      },
+      {
+        "id": 3,
+        "nome": "Corpo e Saúde"
+      }
+    ]
+  }
